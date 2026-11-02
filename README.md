@@ -8,6 +8,14 @@ trivia, polls, autoroles, reminders and one-tap server setup — in a single inv
 
 ---
 
+> **Not a source repository.** Apricus is a **closed-source, hosted service**.
+> This repo is a public information page only. There is no source code here to read,
+> download, fork, or self-host, and no source repository exists. Everything Apricus
+> does runs on our hosted infrastructure - you add it to your server with the invite
+> link further down this page.
+>
+> **License:** Proprietary. All rights reserved. No source license is granted.
+
 ## Table of contents
 
 - [Why Apricus](#why-apricus)
@@ -70,9 +78,9 @@ Every module is independent. Disabling one never breaks the others.
 
 ### Add Apricus to your server
 
-**[https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=446945422423&scope=bot%20applications.commands](https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=446945422423&scope=bot%20applications.commands)**
+**[https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=564496410471511&scope=bot%20applications.commands](https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=564496410471511&scope=bot%20applications.commands)**
 
-The invite requests permissions mask `446945422423`. You can uncheck anything
+The invite requests permissions mask `564496410471511`. You can uncheck anything
 you do not want during authorization — the bot degrades gracefully and will
 tell you which permission a given command is missing instead of failing silently.
 
@@ -123,7 +131,7 @@ tools) are restricted to the bot owner and are not available to server admins.
 The invite URL above requests a single fixed permissions mask:
 
 ```
-446945422423
+564496410471511
 ```
 
 This covers reading messages and history, sending and embedding messages,
