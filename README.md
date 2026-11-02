@@ -42,7 +42,7 @@ if you never touch the economy module, it never posts anything.
 | **One-tap setup** | Guided wizard that creates the log channel, configures roles and turns on the modules you pick | `/quicksetup` |
 | **Moderation** | Timeouts, bans, kicks, message purge, and a per-member warning history you can review or clear | `/ban`, `/kick`, `/mute`, `/unmute`, `/purge`, `/warn`, `/warnings`, `/clearwarnings` |
 | **XP & leveling** | Passive XP for activity, per-server levels, rank cards and a leaderboard | `/rank`, `/leaderboard`, `/xpstats`, `/levelup` |
-| **Economy** | Server-scoped economy module with its own balances and commands | `/economy` group |
+| **Economy** | Apricots currency: daily claim, pay, beg, shop, buy, inventory | `/balance`, `/daily`, `/pay`, `/beg`, `/shop`, `/buy`, `/inventory` |
 | **Starboard** | Auto-mirrors posts that cross a reaction threshold into a channel you choose | `/starboard` group |
 | **Trivia** | On-demand rounds plus a scheduled daily trivia channel | `/dailytrivia`, plus the `dailycontent` group |
 | **Polls & voting** | Create polls, run them to a deadline, view results | `/newpoll`, `/poll`, `/vote`, `/votestat` |
@@ -91,6 +91,9 @@ commands — type `/` in Discord to see the ones available in your server.
 
 **Leveling**
 `/rank` · `/leaderboard` · `/xpstats` · `/levelup` · `/addxp`
+
+**Economy**
+`/balance` · `/daily` · `/pay` · `/beg` · `/shop` · `/buy` · `/inventory`
 
 **Starboard**
 `/starboard` (subcommands) · `/view` · `/threshold` · `/remove`
