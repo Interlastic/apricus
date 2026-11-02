@@ -16,7 +16,7 @@ trivia, polls, autoroles, reminders and one-tap server setup — in a single inv
 - [Slash commands](#slash-command-reference)
 - [Permissions](#permissions)
 - [Privacy & data](#privacy--data)
-- [Self-hosting](#self-hosting)
+- [Hosting model](#hosting-model)
 - [Showcase & screenshots](#showcase--screenshots)
 - [FAQ](#faq)
 
@@ -153,21 +153,11 @@ manage-messages only.
 
 ---
 
-## Self-hosting
+## Hosting model
 
-Apricus is built on `discord.py` and runs as a set of independent cogs.
-
-```bash
-git clone https://github.com/Interlastic/apricus.git
-cd apricus
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-# create bot/.env with DISCORD_TOKEN and your client ID
-python -m bot.bot_runner
-```
-
-Each feature lives in its own cog under `bot/cogs/`, so you can delete or
-disable modules you do not want without touching the runner.
+Apricus is a **closed-source, hosted service**. There is no source code to download
+or run yourself: you use the live bot directly via the invite link above, and
+configuration happens entirely through slash commands.
 
 ---
 
@@ -199,15 +189,17 @@ Registration is asynchronous and can take a minute after the invite. Re-open
 the command bar, or kick and re-invite the bot. Check that the invite included
 the `applications.commands` scope.
 
-**Where is the source?**
-This repository. See the [self-hosting](#self-hosting) section, and the
+**Is Apricus open-source?**
+No. Apricus is a closed-source hosted service. You do not need to run any code — just invite the bot and run `/quicksetup`. See the
 [showcase](https://interlastic.github.io/apricus-showcase/) for a visual tour.
 
 ---
 
 ## License
 
-Source in this repository is provided for reference and self-hosting.
+Apricus is a closed-source hosted product. This repository holds public
+documentation and landing-page assets only — it does not contain the bot’s
+source code.
 
 ---
 
