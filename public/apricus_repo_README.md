@@ -4,7 +4,7 @@
 trivia, polls, autoroles, reminders and one-tap server setup — in a single invite.
 
 > **Live demo, screenshots and a guided tour:**
-> **[https://interlastic.github.io/apricus-showcase/](https://interlastic.github.io/apricus-showcase/)**
+> **[https://apricus.mingalabs.com/](https://apricus.mingalabs.com/)**
 
 ---
 
@@ -50,7 +50,7 @@ if you never touch the economy module, it never posts anything.
 | **One-tap setup** | Guided wizard that creates the log channel, configures roles and turns on the modules you pick | `/quicksetup` |
 | **Moderation** | Timeouts, bans, kicks, message purge, and a per-member warning history you can review or clear | `/ban`, `/kick`, `/mute`, `/unmute`, `/purge`, `/warn`, `/warnings`, `/clearwarnings` |
 | **XP & leveling** | Passive XP for activity, per-server levels, rank cards and a leaderboard | `/rank`, `/leaderboard`, `/xpstats`, `/levelup` |
-| **Economy** | Apricots currency: daily claim, pay, beg, shop, buy, inventory | `/balance`, `/daily`, `/pay`, `/beg`, `/shop`, `/buy`, `/inventory` |
+| **Economy** | Apricots currency: daily claim, pay, beg, shop, buy, inventory, betting, duels | `/balance`, `/daily`, `/pay`, `/beg`, `/shop`, `/buy`, `/inventory`, `/bet`, `/duel` |
 | **Starboard** | Auto-mirrors posts that cross a reaction threshold into a channel you choose | `/starboard` group |
 | **Trivia** | On-demand rounds plus a scheduled daily trivia channel | `/dailytrivia`, plus the `dailycontent` group |
 | **Polls & voting** | Create polls, run them to a deadline, view results | `/newpoll`, `/poll`, `/vote`, `/votestat` |
@@ -73,14 +73,14 @@ Every module is independent. Disabling one never breaks the others.
 3. **Add the bot role** — give Apricus a role and drag it above the roles it
    should be able to assign. Discord blocks role assignment below the bot's own
    role, and this is the single most common setup mistake.
-4. **Optional tuning** — `/starboard`, `/threshold`, `/levelup`, `/welcome` and
-   `/goodbye` let you adjust each module without re-running setup.
+4. **Optional tuning** — `/starboard`, `/starboard threshold`, `/levelup`, `/welcome set` and
+   `/goodbye set` let you adjust each module without re-running setup.
 
 ### Add Apricus to your server
 
-**[https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=446945422423&scope=bot%20applications.commands](https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=446945422423&scope=bot%20applications.commands)**
+**[https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=564496410471639&scope=bot%20applications.commands](https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=564496410471639&scope=bot%20applications.commands)**
 
-The invite requests permissions mask `446945422423`. You can uncheck anything
+The invite requests permissions mask `564496410471639`. You can uncheck anything
 you do not want during authorization — the bot degrades gracefully and will
 tell you which permission a given command is missing instead of failing silently.
 
@@ -92,7 +92,7 @@ Apricus is slash-command first. All of the following are real, registered
 commands — type `/` in Discord to see the ones available in your server.
 
 **Setup & config**
-`/quicksetup` · `/setup` · `/setup_status` · `/config` · `/set` · `/onboard` · `/tour`
+`/quicksetup` · `/setup` · `/setup_status` · `/config` · `/autorole set` · `/onboard` · `/tour`
 
 **Moderation**
 `/ban` · `/kick` · `/mute` · `/unmute` · `/purge` · `/warn` · `/warnings` · `/clearwarnings`
@@ -101,10 +101,10 @@ commands — type `/` in Discord to see the ones available in your server.
 `/rank` · `/leaderboard` · `/xpstats` · `/levelup` · `/addxp`
 
 **Economy**
-`/balance` · `/daily` · `/pay` · `/beg` · `/shop` · `/buy` · `/inventory`
+`/balance` · `/daily` · `/pay` · `/beg` · `/shop` · `/buy` · `/inventory` · `/bet` · `/duel`
 
 **Starboard**
-`/starboard` (subcommands) · `/view` · `/threshold` · `/remove`
+`/starboard` (subcommands) · `/starboard view` · `/starboard threshold` · `/starboard remove`
 
 **Content & engagement**
 `/dailytrivia` · `/dailycontent` (group) · `/newpoll` · `/poll` · `/vote` · `/votestat`
@@ -121,7 +121,7 @@ commands — type `/` in Discord to see the ones available in your server.
 **Utility & fun**
 `/serverinfo` · `/botinfo` · `/help` · `/invite` · `/ping` · `/flip` · `/roll` · `/8ball` · `/joke` · `/rps`
 
-Admin/ops commands (`/broadcast`, `/admin_status`, `/usage`, `/diagnostics`-style
+Admin/ops commands (`/broadcast`, `/admin_status`, `/usage`
 tools) are restricted to the bot owner and are not available to server admins.
 
 ---
@@ -131,7 +131,7 @@ tools) are restricted to the bot owner and are not available to server admins.
 The invite URL above requests a single fixed permissions mask:
 
 ```
-446945422423
+564496410471639
 ```
 
 This covers reading messages and history, sending and embedding messages,
@@ -175,7 +175,7 @@ Want to see it working before you invite it? The interactive showcase walks
 through moderation, leveling, starboard and the setup wizard with real
 screenshots and command output:
 
-**[https://interlastic.github.io/apricus-showcase/](https://interlastic.github.io/apricus-showcase/)**
+**[https://apricus.mingalabs.com/](https://apricus.mingalabs.com/)**
 
 The showcase also contains the same invite link used in this README, so you can
 go from "reading about it" to "it is in my server" in one click.
@@ -199,7 +199,7 @@ the `applications.commands` scope.
 
 **Is Apricus open-source?**
 No. Apricus is a closed-source hosted service. You do not need to run any code — just invite the bot and run `/quicksetup`. See the
-[showcase](https://interlastic.github.io/apricus-showcase/) for a visual tour.
+[showcase](https://apricus.mingalabs.com/) for a visual tour.
 
 ---
 
