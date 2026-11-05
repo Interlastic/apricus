@@ -180,6 +180,13 @@ command output and the exact setup flow:
 The showcase also contains the same invite link used in this README, so you can
 go from "reading about it" to "it is in my server" in one click.
 
+Pages on the site, if you want to go straight to one:
+
+- [Main showcase](https://apricus.mingalabs.com/index.html) - full feature list and command reference
+- [MEE6 alternative](https://apricus.mingalabs.com/mee6-alternative.html) - how Apricus compares, module by module
+- [Moderation bot guide](https://apricus.mingalabs.com/discord-moderation-bot.html) - moderation, autorole and audit-log features
+- [Permissions calculator](https://apricus.mingalabs.com/discord-permissions-calculator.html) - build an install link with exactly the flags you want
+
 ---
 
 ## FAQ
