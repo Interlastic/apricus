@@ -3,7 +3,7 @@
 **Apricus** is an all-in-one Discord bot: moderation, XP leveling, economy, starboard,
 trivia, polls, autoroles, reminders and one-tap server setup — in a single invite.
 
-> **Live demo, screenshots and a guided tour:**
+> **Feature showcase, command reference and a guided tour:**
 > **[https://apricus.mingalabs.com/](https://apricus.mingalabs.com/)**
 
 ---
@@ -25,7 +25,7 @@ trivia, polls, autoroles, reminders and one-tap server setup — in a single inv
 - [Permissions](#permissions)
 - [Privacy & data](#privacy--data)
 - [Hosting model](#hosting-model)
-- [Showcase & screenshots](#showcase--screenshots)
+- [Showcase & tour](#showcase--tour)
 - [FAQ](#faq)
 
 ---
@@ -169,11 +169,11 @@ configuration happens entirely through slash commands.
 
 ---
 
-## Showcase & screenshots
+## Showcase & tour
 
 Want to see it working before you invite it? The interactive showcase walks
 through moderation, leveling, starboard and the setup wizard with real
-screenshots and command output:
+command output and the exact setup flow:
 
 **[https://apricus.mingalabs.com/](https://apricus.mingalabs.com/)**
 
@@ -199,7 +199,7 @@ the `applications.commands` scope.
 
 **Is Apricus open-source?**
 No. Apricus is a closed-source hosted service. You do not need to run any code — just invite the bot and run `/quicksetup`. See the
-[showcase](https://apricus.mingalabs.com/) for a visual tour.
+[showcase](https://apricus.mingalabs.com/) for a guided tour.
 
 ---
 
