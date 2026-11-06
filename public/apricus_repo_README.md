@@ -179,8 +179,11 @@ manage-messages only.
 - It does **not** read the contents of private messages or DMs you have with
   other users, and it does **not** transcribe voice channels.
 - No data is sold, shared with third parties, or used for advertising.
-- No analytics tracking scripts are embedded anywhere in the bot or its
-  documentation.
+- The bot embeds no analytics or advertising scripts and the website sets no
+  cookies. The website does carry one privacy-minimal page counter
+  ([Abacus](https://abacus.jasoncameron.dev)) that increments once per page load,
+  so we can tell whether anyone arrives at all. It is a single counter, not an
+  analytics platform: no cross-site tracking, fingerprinting or profiling.
 - Member-level data is scoped to the server that generated it. Removing the bot
   from a server stops all further collection for that server.
 
