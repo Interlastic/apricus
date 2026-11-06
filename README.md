@@ -8,16 +8,28 @@ trivia, polls, autoroles, reminders and one-tap server setup — in a single inv
 
 ---
 
+## Add Apricus to your server
+
+**[https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=564496410471639&scope=bot%20applications.commands](https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=564496410471639&scope=bot%20applications.commands)**
+
+**What you get in the first 30 seconds:**
+
+- One invite, one bot: moderation, XP, economy, starboard, trivia, polls, autoroles, reminders
+- `/quicksetup` in any channel creates the log channel and enables the modules you pick
+- Everything is opt-in per server — a module you never enable never posts anything
+- Slash commands register within a minute; type `/` to see them
+
 > **Not a source repository.** Apricus is a **closed-source, hosted service**.
 > This repo is a public information page only. There is no source code here to read,
 > download, fork, or self-host, and no source repository exists. Everything Apricus
 > does runs on our hosted infrastructure - you add it to your server with the invite
-> link further down this page.
+> link at the top of this page.
 >
 > **License:** Proprietary. All rights reserved. No source license is granted.
 
 ## Table of contents
 
+- [Add Apricus to your server](#add-apricus-to-your-server)
 - [Why Apricus](#why-apricus)
 - [Features](#features)
 - [Quick start](#quick-start)
@@ -76,7 +88,9 @@ Every module is independent. Disabling one never breaks the others.
 4. **Optional tuning** — `/starboard`, `/starboard threshold`, `/levelup`, `/welcome set` and
    `/goodbye set` let you adjust each module without re-running setup.
 
-### Add Apricus to your server
+### Install link (same as above)
+
+The full authorization URL, repeated here for convenience:
 
 **[https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=564496410471639&scope=bot%20applications.commands](https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=564496410471639&scope=bot%20applications.commands)**
 
