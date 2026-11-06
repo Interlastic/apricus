@@ -65,6 +65,7 @@ if you never touch the economy module, it never posts anything.
 | **Economy** | Apricots currency: daily claim, pay, beg, shop, buy, inventory, betting, duels and slots | `/balance`, `/daily`, `/pay`, `/beg`, `/shop`, `/buy`, `/inventory`, `/bet`, `/duel`, `/slots` |
 | **Starboard** | Auto-mirrors posts that cross a reaction threshold into a channel you choose | `/starboard` group |
 | **Trivia** | On-demand rounds plus a scheduled daily trivia channel | `/dailytrivia`, plus the `dailycontent` group |
+| **Daily word game** | Semantle: everyone in the server works the same target word each day. Apricus ranks each guess by how close it is in **meaning** to the target — a rank out of roughly 21,000 words plus a hot/warm/cold band. It pays no Apricots and no currency | `/semantle`, `/semantlestats`, `/semantlehelp` |
 | **Polls & voting** | Create polls, run them to a deadline, view results | `/newpoll`, `/poll`, `/vote`, `/votestat` |
 | **Suggestions** | A suggestion board with feedback status tracking | `/suggest`, `/suggestions`, `/feedback` |
 | **Autoroles & welcomes** | Role-on-join, configurable welcome and goodbye messages | `/autorole`, `/welcome`, `/goodbye` |
@@ -122,6 +123,9 @@ commands — type `/` in Discord to see the ones available in your server.
 
 **Content & engagement**
 `/dailytrivia` · `/dailycontent` (group) · `/newpoll` · `/poll` · `/vote` · `/votestat`
+
+**Daily word game (Semantle)**
+`/semantle word:<word>` (guess) · `/semantle` (today's status) · `/semantlestats` (standings) · `/semantlehelp` (how scoring works)
 
 **Suggestions & feedback**
 `/suggest` · `/suggestions` · `/feedback` · `/feedbackboard` · `/feedbackstatus`
