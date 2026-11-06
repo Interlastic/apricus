@@ -75,7 +75,7 @@ if you never touch the economy module, it never posts anything.
 
 Every module is independent. Disabling one never breaks the others.
 
-## Why not MEE6 or Carl-bot?
+## MEE6 alternative (and why not Carl-bot either)
 
 One install instead of three bots: Apricus covers moderation, leveling, economy,
 starboard and trivia together, and configures itself in about 30 seconds with
