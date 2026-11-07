@@ -82,6 +82,23 @@ starboard and trivia together, and configures itself in about 30 seconds with
 `/quicksetup` - no dashboard, no config file, no premium paywall for the basics.
 See the side-by-side comparison: https://apricus.mingalabs.com/mee6-alternative.html
 
+### The comparison, in short
+
+| | Apricus | A typical freemium leveling bot |
+| --- | --- | --- |
+| `/rank`, `/leaderboard`, `/xpstats`, `/levelup` | Included, no tier to unlock | Often the paid feature |
+| Level/XP roles | Included | Commonly premium-gated |
+| Moderation, autorole, welcome, starboard, trivia, economy | Included in the same install | Separate bots or add-ons |
+| Setup | `/quicksetup`, about 30 seconds, no dashboard | Web dashboard + config steps |
+| Billing | No billing code exists in the project | Free tier plus paid tiers |
+
+Two honest caveats, because a comparison that hides them is advertising:
+
+- **XP history does not transfer.** Levels start from zero; Apricus keeps its own XP database and cannot read another bot's storage. Use `/addxp` to credit long-time members.
+- **It is not a MEE6 clone.** No stream alerts, no plugin marketplace, no hosted web dashboard. If you need those specifically, this is not that product.
+
+Verify the paywall claim yourself in five minutes: invite Apricus, run `/quicksetup`, and check that every leveling command works before you decide. Compare the incumbent's current pricing page too - tiers change and I would rather point you at the source than quote a number that goes stale.
+
 ---
 
 ## Quick start
