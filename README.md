@@ -10,7 +10,7 @@ trivia, polls, autoroles, reminders and one-tap server setup — in a single inv
 
 ## Add Apricus to your server
 
-**[https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=564496410471639&scope=bot%20applications.commands](https://discord.com/oauth2/authorize?client_id=1565375148717121616&permissions=564496410471639&scope=bot%20applications.commands)**
+**[➕ Add Apricus to your server](https://apricus.mingalabs.com/install.html)** — one click, pick your server, done. (The raw authorization URL, with the permissions mask spelled out, is under [Install link](#install-link-same-as-above) if you would rather audit it.)
 
 **What you get in the first 30 seconds:**
 
